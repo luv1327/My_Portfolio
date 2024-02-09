@@ -2,9 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import roadbeeImage from "@/public/roadbeeImage.png";
+import animalSocialImage from "@/public/animalSocialImage.png";
 
 export const links = [
   {
@@ -42,7 +41,7 @@ export const experiencesData = [
     date: "2020",
   },
   {
-    title: "Software Engineer",
+    title: "Software Engineering",
     name: "Scaler",
     description:
       "Data Structures, Algorithms, SQL, and Low-Level Design (LLD), honing problem-solving skills and fostering a deep understanding of algorithmic complexities.",
@@ -53,7 +52,7 @@ export const experiencesData = [
     title: "Software Engineer",
     name: "Myzow Solutions LLP",
     description:
-      "Full-stack developer using React, Java, Spring Boot, Node, and MySQL.",
+      "Full-stack developer using React, Java, Spring Boot, and MySQL.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - Present",
   },
@@ -61,25 +60,26 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Animal Social",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Revamped Animal Social with improved backend and user-friendly dashboards.",
+    tags: [
+      "Java",
+      "Spring Boot",
+      "Hibernate",
+      "MySQL",
+      "React",
+      "Zustand",
+      "MUI",
+    ],
+    imageUrl: animalSocialImage,
   },
   {
-    title: "rmtDev",
+    title: "Roadbee",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Backend development for Roadbee's ecommerce section, optimizing functionality and ensuring a superior online shopping experience.",
+    tags: ["Java", "Spring Boot", "Hibernate", "MySQL"],
+    imageUrl: roadbeeImage,
   },
 ] as const;
 
