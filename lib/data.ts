@@ -82,6 +82,7 @@ export const projectsData = [
       "MUI",
     ],
     imageUrl: animalSocialImage,
+    link: "",
   },
   {
     title: "Roadbee",
@@ -89,13 +90,15 @@ export const projectsData = [
       "Backend development for Roadbee's ecommerce section, optimizing functionality and ensuring a superior online shopping experience.",
     tags: ["Java", "Spring Boot", "Hibernate", "MySQL"],
     imageUrl: roadbeeImage,
+    link: "https://roadbee.in/",
   },
   {
     title: "Spring Chat",
     description:
-      "Backend development for Roadbee's ecommerce section, optimizing functionality and ensuring a superior online shopping experience.",
+      "Welcome to SpringChat, my personal project built with Java, React, and Spring Boot. Enjoy secure, real-time messaging with an intuitive interface.",
     tags: ["Java", "Spring Boot", "Hibernate", "MySQL", "React"],
     imageUrl: springChatImage,
+    link: "https://github.com/luv1327/SpringChat",
   },
 ] as const;
 
