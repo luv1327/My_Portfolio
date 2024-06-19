@@ -67,8 +67,9 @@ export default function Intro() {
         <span className="font-bold">Full Stack Developer</span> with{" "}
         <span className="font-bold">2 years</span> of hands-on experience in{" "}
         <span className="underline">React</span>,{" "}
-        <span className="underline">Java</span>, and{" "}
-        <span className="underline">Spring Boot</span>. Let's code something
+        <span className="underline">Java</span>,{" "}
+        <span className="underline">Spring Boot</span> and{" "}
+        <span className="underline">MySql</span>. Let's code something
         extraordinary! 🚀💻
       </motion.h1>
 

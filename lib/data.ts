@@ -4,6 +4,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import roadbeeImage from "@/public/roadbeeImage.png";
 import animalSocialImage from "@/public/animalSocialImage.png";
+import springChatImage from "@/public/springChatImage.png";
 
 export const links = [
   {
@@ -54,7 +55,15 @@ export const experiencesData = [
     description:
       "Full-stack developer using React, Java, Spring Boot, and MySQL.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - Present",
+    date: "2022 - 2024",
+  },
+  {
+    title: "Teaching Assistant",
+    name: "Scaler",
+    description:
+      "Assisting students by answering queries and solving coding problems.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
   },
 ] as const;
 
@@ -80,6 +89,13 @@ export const projectsData = [
       "Backend development for Roadbee's ecommerce section, optimizing functionality and ensuring a superior online shopping experience.",
     tags: ["Java", "Spring Boot", "Hibernate", "MySQL"],
     imageUrl: roadbeeImage,
+  },
+  {
+    title: "Spring Chat",
+    description:
+      "Backend development for Roadbee's ecommerce section, optimizing functionality and ensuring a superior online shopping experience.",
+    tags: ["Java", "Spring Boot", "Hibernate", "MySQL", "React"],
+    imageUrl: springChatImage,
   },
 ] as const;
 
